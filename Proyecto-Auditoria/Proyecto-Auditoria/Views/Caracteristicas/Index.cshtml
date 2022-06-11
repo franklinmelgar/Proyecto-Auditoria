@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Proyecto_Auditoria.Models.Activo>
+@{
+    ViewBag.Titulo = "Listado de Activos";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="white_shd full margin_bottom_30">
+            <div class="full graph_head">
+                <div class="heading1 margin_0">
+                <h2>Listado de activos</h2>
+                </div>
+            </div>
+            <div class="table_section padding_infor_info">
+                <div class="table-responsive-sm">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Fecha de Aquisicion </th>
+                            <th>Tipo de activo </th>
+                            <th>Ubicacion </th>
+                            <th>Acciones </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.CodigoActivo</td>
+                                <td>@item.Descripcion</td>
+                                <td>@Convert.ToDateTime(item.FechaAdquisicion).ToShortDateString()</td>
+                                <td>@item.CodigoTipoActivoNavigation.Descripcion</td>
+                                <td>@item.CodigoUbicacionNavigation.DescripcionUbicacion</td>
+                                <td>
+
+                                    <a class="btn btn-secondary btn-xs" asp-action="Create" asp-controller="Caracteristicas" asp-route-id="@item.CodigoActivo">
+                                        <i class="fa fa-plus white_color2"></i> 
+                                    </a>
+                                    
+                                    <a class="btn btn-info btn-xs" asp-action="Detail" asp-controller="Caracteristicas" asp-route-id="@item.CodigoActivo">
+                                        <i class="fa fa-eye white_color2" ></i> 
+                                    </a>
+
+                                </td>
+                            </tr>   
+                        }
+                        
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

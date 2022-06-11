@@ -1,0 +1,83 @@
+﻿@model Proyecto_Auditoria.Models.CaracteristicaActivo
+@{
+    ViewBag.Titulo = "Crear Caracteristicas de Activo";
+    Activo ActivoFiltrado = ViewData["Activo"] as Activo;
+    IEnumerable<ListadoCaracteristicaTipoActivo> listaCaracteristicas = ViewData["ListadoCaracteristicas"] as IEnumerable<ListadoCaracteristicaTipoActivo>;
+    IEnumerable<CaracteristicaActivo> listaCaracteristicaActivo = ViewData["ListadoCaracteristicasActivo"] as IEnumerable<CaracteristicaActivo>;
+}
+
+<div class="row">
+
+	<div class="col-md-12">
+
+        @if (@ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @ViewBag.Mensaje
+            </div>
+        }        
+
+        <div class="row margin_bottom_15">
+
+            <div class="col-6">
+                <label class="control-label">Codigo Activo</label>
+                <span class="form-control">@ActivoFiltrado.CodigoActivo</span>
+            </div>
+
+            <div class="col-6">
+                <label class="control-label">Descripcion Activo</label>
+                <span class="form-control">@ActivoFiltrado.Descripcion</span>
+            </div>
+
+        </div>
+
+        <div class="row margin_bottom_30">
+
+            <div class="col-6">
+                <label class="control-label">Tipo de Activo</label>
+                <span class="form-control">@ActivoFiltrado.CodigoTipoActivoNavigation.Descripcion</span>
+            </div>
+
+            <div class="col-6">
+                <label class="control-label">Fecha de adquisicion del Activo</label>
+                <span class="form-control">@Convert.ToDateTime(@ActivoFiltrado.FechaAdquisicion).ToShortDateString()</span>
+            </div>
+
+        </div>
+
+
+        <div class="table-responsive-sm">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre Caracteristica</th>
+                        <th>Descripcion Caracteristica</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in listaCaracteristicaActivo)
+                    {
+                        <tr>
+                            <td>@item.CodigoListadoCaracteristicaNavigation.DescripcionCaracteristica</td>
+                            <td>@item.DescripcionCaracteristica</td>
+                            <td>
+                                <a class="btn btn-success btn-xs" asp-action="Edit" asp-controller="Caracteristicas" asp-route-id="@item.CodigoCaracteristica">
+                                    <i class="fa fa-pencil white_color2"></i> 
+                                </a>
+
+                                <a class="btn btn-danger btn-xs" asp-action="Delete" asp-controller="Caracteristicas" asp-route-id="@item.CodigoCaracteristica">
+                                    <i class="fa fa-trash white_color2" ></i> 
+                                </a>
+                            </td>
+                        </tr>   
+                    }
+                        
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

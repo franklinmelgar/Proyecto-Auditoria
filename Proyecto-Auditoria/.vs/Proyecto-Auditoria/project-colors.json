@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7881cc5e-0f5b-4ff4-918d-9525cdd8e34c": {
+      "ProjectGuid": "7881cc5e-0f5b-4ff4-918d-9525cdd8e34c",
+      "DisplayName": "Proyecto-Auditoria",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

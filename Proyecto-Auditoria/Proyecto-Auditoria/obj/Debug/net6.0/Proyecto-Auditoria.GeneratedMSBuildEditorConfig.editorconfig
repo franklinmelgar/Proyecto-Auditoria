@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\frank\OneDrive\Documents\Clases Ceutec\Proyectos desarrollo\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

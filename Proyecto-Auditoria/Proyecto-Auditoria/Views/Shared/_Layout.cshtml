@@ -42,7 +42,7 @@
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_img"><img class="img-responsive" src="~/images/layout_img/user_img.jpg" alt="#" /></div>
                         <div class="user_info">
                            <h6>Auditor</h6>
                         </div>
@@ -57,31 +57,34 @@
                         <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Mantenimiento</span></a>
                         <ul class="collapse list-unstyled" id="dashboard">
                            <li>
-                              <a>> <span>Software</span></a>
+                              <a asp-action="Index" asp-controller="Activo">> <span>Activos</span></a>
                            </li>
                            <li>
-                              <a>> <span>Hardware</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Software">> <span>Software</span></a>
                            </li>
                            <li>
-                              <a>> <span>Base de datos</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Hardware">> <span>Hardware</span></a>
                            </li>
                            <li>
-                              <a>> <span>Proyectos</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Base de datos">> <span>Base de datos</span></a>
                            </li>
                            <li>
-                              <a>> <span>Puestos de trabajo</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Proyectos">> <span>Proyectos</span></a>
                            </li>
                            <li>
-                              <a>> <span>Mobiliario y Equipo</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Puestos de trabajo">> <span>Puestos de trabajo</span></a>
                            </li>
                            <li>
-                              <a>> <span>Redes</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Mobiliario y equipo">> <span>Mobiliario y Equipo</span></a>
                            </li>
                            <li>
-                              <a>> <span>Mantenimientos y Respaldos</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Redes">> <span>Redes</span></a>
                            </li>
                            <li>
-                              <a>> <span>Consumibles o Generales</span></a>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Matenimiento y Respaldo">> <span>Mantenimientos y Respaldos</span></a>
+                           </li>
+                           <li>
+                              <a asp-action="Index" asp-controller="Caracteristicas" asp-route-id="Consumibles o Generales">> <span>Consumibles o Generales</span></a>
                            </li>
                         </ul>
                      </li>
@@ -114,7 +117,7 @@
                            <div class="icon_info">
                               <ul class="user_profile_dd">
                                  <li>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user">Auditor</span></a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="~/images/layout_img/user_img.jpg" alt="#" /><span class="name_user">Auditor</span></a>
                                     <div class="dropdown-menu">                                       
                                        <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
@@ -126,7 +129,33 @@
                   </nav>
                </div>
        
-               @RenderBody()
+               <div class="midde_cont">
+                    <div class="container-fluid">
+                        <div class="row column_title">
+                        <div class="col-md-12">
+                            <div class="page_title">
+                                <h2>@ViewBag.Titulo</h2>
+                            </div>
+                        </div>
+                        </div>
+                    
+                        @*<div class="container-fluid">*@
+                            @*<main role="main" class="pb-3">*@
+                                @RenderBody()
+                            @*</main>*@
+                        @*</div>                    *@
+                    
+                    
+                    </div>
+                    <!-- footer -->
+                    @*<div class="container-fluid">
+                        <div class="footer">
+                        <p>Copyright © 2018 Designed by html.design. All rights reserved.<br><br>
+                            Distributed By: <a href="https://themewagon.com/">ThemeWagon</a>
+                        </p>
+                        </div>
+                    </div>*@
+                </div>
              
             </div>
          </div>

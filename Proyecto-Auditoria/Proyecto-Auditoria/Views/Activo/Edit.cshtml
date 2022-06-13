@@ -1,0 +1,63 @@
+﻿@model Proyecto_Auditoria.Models.Activo
+@{
+    ViewBag.Titulo = "Modificar activo";
+    IEnumerable<TipoActivo> listaTipos = ViewData["Tipos"] as IEnumerable<TipoActivo>;
+    IEnumerable<Ubicacion> listaUbicacion = ViewData["Ubicacion"] as IEnumerable<Ubicacion>;
+}
+
+<div class="row">
+
+	<div class="col-md-8">
+
+        @if (@ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @ViewBag.Mensaje
+            </div>
+        }        
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="CodigoActivo" class="form-control" value="@Model.CodigoActivo" hidden />
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label">Descripcion del activo</label>
+                <input asp-for="Descripcion" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaAdquisicion" class="control-label">Fecha Adquisicion</label>
+                <input asp-for="FechaAdquisicion" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoTipoActivo" class="control-label">Tipo de activo</label>
+                <select asp-for="CodigoTipoActivo" class="form-control">                    
+                    @foreach(var tipo in listaTipos)
+                    {
+                        <option value=@tipo.CodigoTipoActivo>@tipo.Descripcion</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorInicial" class="control-label">Valor del activo</label>
+                <input asp-for="ValorInicial" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoUbicacion" class="control-label">Ubicacion de activo</label>
+                <select asp-for="CodigoUbicacion" class="form-control">                    
+                    @foreach(var ubicacion in listaUbicacion)
+                    {
+                        <option value=@ubicacion.CodigoUbicacion>@ubicacion.DescripcionUbicacion</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Actualizar Activo" class="btn btn-primary" />
+                <a class="btn btn-info btn-small" asp-area="" asp-controller="Activo" asp-action="Index">
+                     <span>Regresar</span>
+                </a>
+            </div>
+        </form>
+    </div>
+
+</div>

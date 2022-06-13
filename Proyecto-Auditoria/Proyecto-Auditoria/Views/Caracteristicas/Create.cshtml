@@ -70,7 +70,10 @@
             </div>
             <div class="form-group">
                 <input asp-for="CodigoActivo" class="form-control" hidden value="@ActivoFiltrado.CodigoActivo" />
-                <input type="submit" value="Crear Caracteristica" class="btn btn-primary" />                
+                <input type="submit" value="Crear Caracteristica" class="btn btn-primary" />
+                <a class="btn btn-info btn-small" asp-area="" asp-controller="Caracteristicas" asp-action="Index" asp-route-id="@ActivoFiltrado.CodigoTipoActivoNavigation.Descripcion">
+                     <span>Regresar</span>
+                </a>
             </div>            
         </form>
 

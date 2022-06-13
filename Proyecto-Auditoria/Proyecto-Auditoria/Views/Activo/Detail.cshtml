@@ -1,0 +1,38 @@
+﻿@model Proyecto_Auditoria.Models.Activo
+
+<div class="row">
+
+	<div class="col-md-8">        
+
+        <div class="form-group">
+            <label asp-for="Descripcion" class="control-label">Descripcion del activo</label>
+            <span class="form-control">@Model.Descripcion</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FechaAdquisicion" class="control-label">Fecha Adquisicion</label>
+            <span class="form-control">@Convert.ToDateTime(Model.FechaAdquisicion).ToShortDateString()</span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CodigoTipoActivo" class="control-label">Tipo de activo</label>
+            <span class="form-control">@Model.CodigoTipoActivoNavigation.Descripcion</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorInicial" class="control-label">Valor del activo</label>
+            <span class="form-control">@Model.ValorInicial</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CodigoUbicacion" class="control-label">Ubicacion de activo</label>
+            <span class="form-control">@Model.CodigoUbicacionNavigation.DescripcionUbicacion</span>
+        </div>
+        <div class="form-group">
+            <a class="btn btn-info btn-small" asp-area="" asp-controller="Activo" asp-action="Index">
+                    <span>Regresar</span>
+            </a>
+        </div>
+        
+    </div>
+
+
+
+</div>

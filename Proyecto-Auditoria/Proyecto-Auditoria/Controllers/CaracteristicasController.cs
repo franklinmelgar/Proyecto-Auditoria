@@ -75,6 +75,36 @@ namespace Proyecto_Auditoria.Controllers
             return RedirectToAction("Detail", new { id = codigo });
         }
 
+        public IActionResult Edit(int Id)
+        {
+            //if (id == null)
+            //{
+            //    return RedirectToAction("Index");
+            //}
+
+            var caracteristica = conexionBD.Set<CaracteristicaActivo>().Include(C => C.CodigoListadoCaracteristicaNavigation).Where(C => C.CodigoCaracteristica.Equals(Id)).FirstOrDefault();
+
+            return View(caracteristica);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(CaracteristicaActivo _caracteristica)
+        {
+            //if (id == null)
+            //{
+            //    return RedirectToAction("Index");
+            //}
+
+            int codigo = (int)_caracteristica.CodigoCaracteristica;
+
+            conexionBD.Update(_caracteristica);
+            conexionBD.SaveChanges();
+
+            //var caracteristica = conexionBD.Set<CaracteristicaActivo>().Include(C => C.CodigoListadoCaracteristicaNavigation).Where(C => C.CodigoCaracteristica.Equals(codigo)).FirstOrDefault();
+
+            return RedirectToAction("Edit", "Caracteristicas", new {Id = codigo});
+        }
+
 
         private void obtenerInfomacionActivo(int idActivo)
         {

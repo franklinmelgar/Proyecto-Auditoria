@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Proyecto_Auditoria.Models.TipoActivo>
+@{
+    ViewBag.Titulo = "Mantenimiento Tipos Activos";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="white_shd full margin_bottom_30">
+            <div class="full graph_head">
+                <div class="heading1 margin_0">
+                <h2>Listado de tipos de activos</h2>
+                </div>
+            </div>
+            <div class="table_section padding_infor_info">
+                <div class="table-responsive-sm">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Acciones </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.CodigoTipoActivo</td>
+                                <td>@item.Descripcion</td>
+                                <td>
+
+                                    <a class="btn btn-secondary btn-xs" asp-action="Create" asp-controller="CaracteristicasTipo" asp-route-id="@item.CodigoTipoActivo">
+                                        <i class="fa fa-plus white_color2"></i> 
+                                    </a>
+
+                                    @*<a class="btn btn-success btn-xs" asp-action="Edit" asp-controller="CaracteristicasTipo" asp-route-id="@item.CodigoTipoActivo">
+                                        <i class="fa fa-pencil white_color2"></i> 
+                                    </a>*@
+
+                                    <a class="btn btn-info btn-xs" asp-action="Detail" asp-controller="CaracteristicasTipo" asp-route-id="@item.CodigoTipoActivo">
+                                        <i class="fa fa-eye white_color2"></i> 
+                                    </a>
+
+                                    @*<a class="btn btn-danger btn-xs" asp-action="Delete" asp-controller="Activo" asp-route-id="@item.CodigoActivo">
+                                        <i class="fa fa-trash white_color2" ></i> 
+                                    </a>*@                                    
+                                 
+
+                                </td>
+                            </tr>   
+                        }
+                        
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

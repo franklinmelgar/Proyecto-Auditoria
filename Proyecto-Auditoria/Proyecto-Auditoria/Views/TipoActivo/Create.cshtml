@@ -1,0 +1,34 @@
+﻿@model Proyecto_Auditoria.Models.TipoActivo
+@{
+    ViewBag.Titulo = "Crear nuevo tipo activo";
+}
+
+<div class="row">
+
+	<div class="col-md-8">
+
+        @if (@ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @ViewBag.Mensaje
+            </div>
+        }        
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label">Descripcion del tipo de activo</label>
+                <input asp-for="Descripcion" class="form-control" />
+            </div>            
+            <div class="form-group">
+                <input type="submit" value="Crear Tipo Activo" class="btn btn-primary" />
+                <a class="btn btn-info btn-small" asp-area="" asp-controller="TipoActivo" asp-action="Index">
+                     <span>Regresar</span>
+                </a>
+            </div>
+        </form>
+    </div>
+
+
+
+</div>

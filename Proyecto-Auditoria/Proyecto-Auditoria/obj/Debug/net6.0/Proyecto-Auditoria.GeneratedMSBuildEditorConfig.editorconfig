@@ -31,6 +31,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +73,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/_ViewImports.cshtml]

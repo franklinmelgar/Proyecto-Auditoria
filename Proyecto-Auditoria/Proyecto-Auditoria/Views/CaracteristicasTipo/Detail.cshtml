@@ -1,0 +1,71 @@
+﻿@model Proyecto_Auditoria.Models.ListadoCaracteristicaTipoActivo
+@{
+    ViewBag.Titulo = "Crear nuevo tipo activo";
+    TipoActivo tipo = ViewData["TipoActivo"] as TipoActivo;
+    List<ListadoCaracteristicaTipoActivo> listado = ViewData["listado"] as List<ListadoCaracteristicaTipoActivo>;
+}
+
+<div class="row">
+
+	<div class="col-md-8">
+
+        @if (@ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @ViewBag.Mensaje
+            </div>
+        }        
+
+        <div class="row margin_bottom_15">
+
+            <div class="col-6">
+                <label class="control-label">Codigo Tipo de Activo</label>
+                <span class="form-control">@tipo.CodigoTipoActivo</span>
+            </div>
+
+            <div class="col-6">
+                <label class="control-label">Descripcion Tipo de Activo</label>
+                <span class="form-control">@tipo.Descripcion</span>
+            </div>
+
+        </div>
+
+        <div class="table-responsive-sm">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Codigo Caracteristica</th>
+                        <th>Descripcion Caracteristica</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in listado)
+                    {
+                        <tr>
+                            <td>@item.CodigoListadoCaracteristica</td>
+                            <td>@item.DescripcionCaracteristica</td>
+                            <td>
+
+                                <a class="btn btn-success btn-xs" asp-action="Edit" asp-controller="CaracteristicasTipo" asp-route-id="@item.CodigoListadoCaracteristica">
+                                    <i class="fa fa-pencil white_color2"></i> 
+                                </a>
+
+                                <a class="btn btn-danger btn-xs" asp-action="Delete" asp-controller="CaracteristicasTipo" asp-route-id="@item.CodigoListadoCaracteristica">
+                                    <i class="fa fa-trash white_color2" ></i> 
+                                </a>
+
+                            </td>
+                        </tr>   
+                    }
+                        
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+</div>

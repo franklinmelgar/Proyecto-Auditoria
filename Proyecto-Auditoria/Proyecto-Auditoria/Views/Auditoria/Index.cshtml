@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Proyecto_Auditoria.Models.Auditorium>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row margin_bottom_15" > 
+    <div class="col-md-12">
+        <a class="btn btn-primary btn-small" asp-area="" asp-controller="Auditoria" asp-action="Create">
+            <i class="fa fa-plus"></i> <span>Crear nueva auditoria</span>
+        </a>
+    </div>
+           
+
+
+
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Responsable)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Objetivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoActivoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Responsable)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Objetivo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaFinal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoActivoNavigation.CodigoActivo)
+            </td>
+            <td>
+
+                                    <a class="btn btn-success btn-xs" asp-action="Edit" asp-controller="Auditoria" asp-route-id="@item.CodigoAuditoria">
+                                        <i class="fa fa-pencil white_color2"></i> 
+                                    </a>
+
+                                    <a class="btn btn-danger btn-xs" asp-action="Delete" asp-controller="Auditoria" asp-route-id="@item.CodigoAuditoria">
+                                        <i class="fa fa-trash white_color2" ></i> 
+                                    </a>                                    
+                                    <a class="btn btn-info btn-xs" asp-action="Details" asp-controller="Auditoria" asp-route-id="@item.CodigoAuditoria">
+                                        <i class="fa fa-eye white_color2" ></i> 
+                                    </a>
+
+                                </td>
+        </tr>
+}
+    </tbody>
+</table>

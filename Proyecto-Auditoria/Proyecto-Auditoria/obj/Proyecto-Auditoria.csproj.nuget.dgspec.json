@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frank\\OneDrive\\Documents\\Clases Ceutec\\Proyectos desarrollo\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj": {}
+    "C:\\Users\\Randell Caballero\\Documents\\Ceutec\\Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frank\\OneDrive\\Documents\\Clases Ceutec\\Proyectos desarrollo\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj": {
+    "C:\\Users\\Randell Caballero\\Documents\\Ceutec\\Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frank\\OneDrive\\Documents\\Clases Ceutec\\Proyectos desarrollo\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj",
+        "projectUniqueName": "C:\\Users\\Randell Caballero\\Documents\\Ceutec\\Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj",
         "projectName": "Proyecto-Auditoria",
-        "projectPath": "C:\\Users\\frank\\OneDrive\\Documents\\Clases Ceutec\\Proyectos desarrollo\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj",
-        "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frank\\OneDrive\\Documents\\Clases Ceutec\\Proyectos desarrollo\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\obj\\",
+        "projectPath": "C:\\Users\\Randell Caballero\\Documents\\Ceutec\\Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria.csproj",
+        "packagesPath": "C:\\Users\\Randell Caballero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Randell Caballero\\Documents\\Ceutec\\Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\Proyecto-Auditoria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Randell Caballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -77,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

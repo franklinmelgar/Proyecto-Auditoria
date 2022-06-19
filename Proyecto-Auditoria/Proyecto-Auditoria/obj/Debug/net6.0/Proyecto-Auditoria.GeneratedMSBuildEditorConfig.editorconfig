@@ -8,93 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto_Auditoria
 build_property.RootNamespace = Proyecto_Auditoria
-build_property.ProjectDir = C:\Users\frank\OneDrive\Documents\Clases Ceutec\Proyectos desarrollo\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\
+build_property.ProjectDir = C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\frank\OneDrive\Documents\Clases Ceutec\Proyectos desarrollo\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria
+build_property.MSBuildProjectDirectory = C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Create.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Detail.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Edit.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Index.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Activo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Create.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Auditoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Auditoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRvcmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Auditoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRvcmlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Auditoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Auditoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Detail.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Edit.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Index.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/CaracteristicasTipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzVGlwb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Create.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Detail.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Edit.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Index.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Caracteristicas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyYWN0ZXJpc3RpY2FzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Home/Index.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/Error.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Create.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Edit.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Index.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/TipoActivo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FjdGl2b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/_ViewImports.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/_ViewStart.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frank/OneDrive/Documents/Clases Ceutec/Proyectos desarrollo/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/_Layout.cshtml]
+[C:/Users/Randell Caballero/Documents/Ceutec/Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Proyecto-Auditoria/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-79l9jmop13

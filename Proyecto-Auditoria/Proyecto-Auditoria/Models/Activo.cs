@@ -7,6 +7,7 @@ namespace Proyecto_Auditoria.Models
     {
         public Activo()
         {
+            Auditoria = new HashSet<Auditorium>();
             CaracteristicaActivos = new HashSet<CaracteristicaActivo>();
             EventosActivos = new HashSet<EventosActivo>();
         }
@@ -22,6 +23,7 @@ namespace Proyecto_Auditoria.Models
 
         public virtual TipoActivo? CodigoTipoActivoNavigation { get; set; }
         public virtual Ubicacion? CodigoUbicacionNavigation { get; set; }
+        public virtual ICollection<Auditorium> Auditoria { get; set; }
         public virtual ICollection<CaracteristicaActivo> CaracteristicaActivos { get; set; }
         public virtual ICollection<EventosActivo> EventosActivos { get; set; }
     }

@@ -17,8 +17,10 @@ namespace Proyecto_Auditoria.Models
         }
 
         public virtual DbSet<Activo> Activos { get; set; } = null!;
+        public virtual DbSet<Auditorium> Auditoria { get; set; } = null!;
         public virtual DbSet<CaracteristicaActivo> CaracteristicaActivos { get; set; } = null!;
         public virtual DbSet<EventosActivo> EventosActivos { get; set; } = null!;
+        public virtual DbSet<HallazgosAuditorium> HallazgosAuditoria { get; set; } = null!;
         public virtual DbSet<ListadoCaracteristicaTipoActivo> ListadoCaracteristicaTipoActivos { get; set; } = null!;
         public virtual DbSet<TipoActivo> TipoActivos { get; set; } = null!;
         public virtual DbSet<Ubicacion> Ubicacions { get; set; } = null!;
@@ -27,7 +29,8 @@ namespace Proyecto_Auditoria.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-7EK03LQ\\SQLEXPRESS; Database=Gestion-Inventario-Auditoria;Trusted_Connection=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=DESKTOP-A23A6CO; Database=Gestion-Inventario-Auditoria;Trusted_Connection=True;");
             }
         }
 
@@ -73,6 +76,35 @@ namespace Proyecto_Auditoria.Models
                     .WithMany(p => p.Activos)
                     .HasForeignKey(d => d.CodigoUbicacion)
                     .HasConstraintName("FK_Activo_Ubicacion");
+            });
+
+            modelBuilder.Entity<Auditorium>(entity =>
+            {
+                entity.HasKey(e => e.CodigoAuditoria);
+
+                entity.Property(e => e.CodigoAuditoria).HasColumnName("codigoAuditoria");
+
+                entity.Property(e => e.CodigoActivo).HasColumnName("codigoActivo");
+
+                entity.Property(e => e.FechaFinal)
+                    .HasColumnType("date")
+                    .HasColumnName("fechaFinal");
+
+                entity.Property(e => e.FechaInicial)
+                    .HasColumnType("date")
+                    .HasColumnName("fechaInicial");
+
+                entity.Property(e => e.Objetivo).HasMaxLength(50);
+
+                entity.Property(e => e.Responsable).HasMaxLength(50);
+
+                entity.Property(e => e.Titulo).HasMaxLength(50);
+
+                entity.HasOne(d => d.CodigoActivoNavigation)
+                    .WithMany(p => p.Auditoria)
+                    .HasForeignKey(d => d.CodigoActivo)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Auditoria_Activo");
             });
 
             modelBuilder.Entity<CaracteristicaActivo>(entity =>
@@ -126,6 +158,31 @@ namespace Proyecto_Auditoria.Models
                     .WithMany(p => p.EventosActivos)
                     .HasForeignKey(d => d.CodigoActivo)
                     .HasConstraintName("FK_EventosActivo_Activo");
+            });
+
+            modelBuilder.Entity<HallazgosAuditorium>(entity =>
+            {
+                entity.HasKey(e => e.CodigoHallazgos);
+
+                entity.Property(e => e.CodigoHallazgos)
+                    .ValueGeneratedNever()
+                    .HasColumnName("codigoHallazgos");
+
+                entity.Property(e => e.CodigoAuditoria).HasColumnName("codigoAuditoria");
+
+                entity.Property(e => e.DescripcionHallazgo)
+                    .HasMaxLength(50)
+                    .IsFixedLength();
+
+                entity.Property(e => e.TituloHallazgo)
+                    .HasMaxLength(50)
+                    .IsFixedLength();
+
+                entity.HasOne(d => d.CodigoAuditoriaNavigation)
+                    .WithMany(p => p.HallazgosAuditoria)
+                    .HasForeignKey(d => d.CodigoAuditoria)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_HallazgosAuditoria_Auditoria");
             });
 
             modelBuilder.Entity<ListadoCaracteristicaTipoActivo>(entity =>

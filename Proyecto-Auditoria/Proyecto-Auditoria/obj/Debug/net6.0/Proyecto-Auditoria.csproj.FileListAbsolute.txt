@@ -327,3 +327,4 @@ C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyect
 C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Randell Caballero\Documents\Ceutec\Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\obj\Debug\net6.0\Proyecto-Auditoria.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\frank\OneDrive\Documents\Clases Ceutec\Proyectos desarrollo\Proyecto-Auditoria\Proyecto-Auditoria\Proyecto-Auditoria\obj\Debug\net6.0\Proyecto-Auditoria.MvcApplicationPartsAssemblyInfo.cs
